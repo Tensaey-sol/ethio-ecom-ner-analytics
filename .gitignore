@@ -30,3 +30,4 @@ test-results/
 .env
 secrets.yaml
 config.local.yaml
+notebooks/scraping_session.session
