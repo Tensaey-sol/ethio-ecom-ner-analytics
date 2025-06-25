@@ -10,7 +10,7 @@ api_hash = os.getenv('TG_API_HASH')
 phone = os.getenv('phone')
 
 # Main scraping function
-async def scrape_channels(channel_list, output_csv='../data/raw/telegram_data.csv', media_dir='data/raw/photos', download_images=False):
+async def scrape_channels(channel_list, output_csv='../data/raw/telegram_data.csv', media_dir='../data/raw/photos', download_images=False):
     os.makedirs(media_dir, exist_ok=True)
 
     client = TelegramClient('scraping_session', api_id, api_hash)
