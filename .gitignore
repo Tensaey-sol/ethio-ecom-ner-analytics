@@ -13,6 +13,7 @@ venv/
 # CSV and data files
 *.csv
 *.png
+*.conll
 
 notebooks/figures/
 
